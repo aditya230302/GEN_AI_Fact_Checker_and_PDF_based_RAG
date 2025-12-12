@@ -1,5 +1,7 @@
 # *AI-Powered Fact-Checker Using Gemini 2.0 + Tavily Web Search*
 
+- [Link](https://github.com/aditya230302/GEN_AI_Fact_Checker_and_PDF_based_RAG/blob/main/Fact_Checker.ipynb)
+
 This project implements a **real-time AI fact-checking system** powered by **Google Gemini 2.0** and **Tavily Search API**. Users can input any claim, and the system automatically:
 
 1. **Searches the web** for evidence using Tavily
@@ -74,3 +76,50 @@ This project implements a **fully local Retrieval-Augmented Generation (RAG) sys
 
 * **Performance Benchmarks**
   Measures inference time for both simple and complex semantic queries.
+
+---
+
+# Intelligent Travel Itinerary Generator (Gemini + Tavily API)
+
+- [Link](https://github.com/aditya230302/GEN_AI_Fact_Checker_and_PDF_based_RAG/blob/main/Travel_Buddy.ipynb)
+
+This project implements an **AI-powered travel planning assistant** that generates **personalized itineraries** using **Google Gemini 2.0 Flash** for reasoning and **Tavily Search API** for real-time destination research.
+The system collects user preferences such as **destination, budget, duration, interests, and travel style**, fetches fresh travel data from the web, and produces a **fully customized multi-day itinerary**, including safety information, food availability, cultural tips, and emergency contacts.
+
+### 🔧 Key Features
+
+* **Dynamic User Preference Collection:**
+  Captures destination, duration, budget, interests, and travel style.
+
+* **Real-Time Destination Research (Tavily API):**
+  Automatically gathers up-to-date information on attractions, safety, weather, budget expectations, and travel advisories.
+
+* **LLM-Powered Itinerary Generation (Gemini 2.0):**
+  Produces a detailed, human-like travel plan with:
+
+  * Destination overview
+  * Cultural & safety guidelines
+  * Day-by-day itinerary
+  * Food recommendations (veg & non-veg)
+  * Emergency contacts
+
+* **Hallucination Reduction:**
+  Uses retrieved research data as grounding context so the AI’s output stays factual and not invented.
+
+* **Interactive CLI Travel Assistant:**
+  Built with a loop-based interface allowing multiple travel plans in one session.
+
+* **Option to Save Itinerary to File:**
+  Users can export the entire travel plan as a `.txt` file.
+
+### 🧠 How It Works
+
+1. User inputs preferences
+2. Assistant sends multiple queries to Tavily
+3. Aggregates & structures the research
+4. Sends all gathered data to Gemini
+5. Gemini generates a complete itinerary
+6. User can view, customize, or save the plan
+
+This system acts like a **personal AI travel concierge**, combining live web knowledge with high-quality LLM reasoning.
+
