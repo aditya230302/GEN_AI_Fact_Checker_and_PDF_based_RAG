@@ -1,4 +1,4 @@
-# *AI-Powered Fact-Checker Using Gemini 2.0 + Tavily Web Search*
+# **AI-Powered Fact-Checker Using Gemini 2.0 + Tavily Web Search**
 
 - [Link](https://github.com/aditya230302/GEN_AI_Fact_Checker_and_PDF_based_RAG/blob/main/Fact_Checker.ipynb)
 
@@ -46,7 +46,7 @@ This system can be applied to:
 
 ---
 
-# Private Document-QA System using RAG + Local LLaMA + LangChain
+# **Private Document-QA System using RAG + Local LLaMA + LangChain**
 
 - [Link](https://github.com/aditya230302/GEN_AI_Fact_Checker_and_PDF_based_RAG/blob/main/LangChain_%2B_LLaMA_%2B_PDF_based_RAG.ipynb)
 
@@ -79,7 +79,7 @@ This project implements a **fully local Retrieval-Augmented Generation (RAG) sys
 
 ---
 
-# Intelligent Travel Itinerary Generator (Gemini + Tavily API)
+# **Intelligent Travel Itinerary Generator (Gemini + Tavily API)**
 
 - [Link](https://github.com/aditya230302/GEN_AI_Fact_Checker_and_PDF_based_RAG/blob/main/Travel_Buddy.ipynb)
 
